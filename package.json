@@ -1,0 +1,37 @@
+{
+  "name": "speeko",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "author": {
+    "name": "Harsh Kumar Raghav",
+    "email": "raghavharsh068@gmail.com"
+  },
+  "files": [
+    "index.js",
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "scripts": {
+    "dev": "unbuild --stub",
+    "build": "unbuild"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.14.1",
+    "@types/prompts": "^2.4.9",
+    "ai": "^3.1.23",
+    "express": "^4.19.2",
+    "kolorist": "^1.8.0",
+    "open": "^10.1.0",
+    "openai": "^4.47.3",
+    "prompts": "^2.4.2",
+    "typescript": "^5.4.5",
+    "unbuild": "^2.0.0"
+  }
+}
